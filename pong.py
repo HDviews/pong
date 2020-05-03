@@ -110,13 +110,11 @@ while True:
     #border checking
     if ball.ycor() > 290:
         ball.sety(290)
-        ball.dy *= -1
-        winsound.PlaySound("pong/bop.wav", winsound.SND_ASYNC)
+        ball.dy *= -1   
     
     if ball.ycor() < -290:
         ball.sety(-290)
         ball.dy *= -1
-        winsound.PlaySound("pong/bop.wav", winsound.SND_ASYNC)
     
     if ball.xcor() > 390:
         ball.goto(0, 0)
