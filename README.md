@@ -4,4 +4,4 @@ I made pong using the turtle module in python, I'm still trying to get the hang 
 
 run with "python pong.py" 
 
-![](images/screenshot.jpeg)
+![](images/screenshot.png)
